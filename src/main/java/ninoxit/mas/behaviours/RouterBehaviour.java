@@ -33,13 +33,12 @@ public class RouterBehaviour extends CyclicBehaviour {
                     break;
                 case "SLR":
                     System.out.println("Running SLR");
-                    /*
-                    System.out.println("Running SLR");
+
                     out.setContent("Running SLR with dataset");
                     out.addReceiver(new AID("SLRAgent", AID.ISLOCALNAME));
                     System.out.println("Sending a message to SLR Agent: " + out.getContent());
                     myAgent.send(out);
-                    */
+
                     break;
                 case "PR":
                     System.out.println("Running PR");
